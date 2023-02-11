@@ -12,7 +12,7 @@
 (function() {
     'use strict';
     document.body.insertAdjacentHTML("beforeend",`<style>
-    #lyrics-root > div:nth-child(4),#application > main > div:nth-child(3),#application > main > div:nth-child(4),#application > div.PageFooterdesktop__Container-hz1fx1-0.boDKcJ.SongPage__PageFooter-sc-19xhmoi-6.cscQEf,#lyrics-root > div.Lyrics__Footer-sc-1ynbvzw-2.jrjShc {display:none;}
+    #lyrics-root > div:nth-child(4),#application > main > div:nth-child(3),#application > main > div:nth-child(4), .PageFooterdesktop__Container-hz1fx1-0,#lyrics-root > div.Lyrics__Footer-sc-1ynbvzw-2.jrjShc, .ng-scope {display:none;}
     #lyrics-root > div:nth-child(3) {font-size: x-large;}
     </style>`);
 })();
